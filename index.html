@@ -3,22 +3,86 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My New Website</title>
+	<title>Grigoriy Loboda</title>
 
 	<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+	<link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 	<header>
-		<h1>Hello, world</h1>
-		<p>Welcome to my website!</p>
+		<nav>
+			  <a href="#">Home</a>
+			  <a href="#about">About me</a>
+			  <a href="#interests">Interests</a>
+			  <a href="#projects">My projects</a>
+			  <a href="#contact">Contacts</a>
+		</nav>
 	</header>
-
 	<main>
-		<p>This is my new website and it's using Simple.css. It's really cool. If you want to use it too, you can <a href="https://simplecss.org">visit their site</a>.</p>
+		<section>
+			<h2>Grigoriy Loboda</h2>
+			<img src="/assets/images/my_photo.jpg" alt="selfie" width="50%">
+			<aside>
+				<ul>
+					<li>20 years old</li>
+					<li>Live in Saint Petersburg</li>
+					<li>Software Engineering student at Saint Petersburg State University</li>
+				</ul>
+			</aside>
+		</section>
+		<section id="about">
+			<h2>About me</h2>
+			<p>I am the second year student at the best place in the world:
+			<em>the Faculty of Mathematics and Mechanics of Saint Petersburg
+			State University</em>. My major is <em>Software Engineering</em>.</p>
+			<p>I love <em>Linux</em> and <em>systems programming</em>. In my projects,
+			I prefer to use <em>C language</em> and <em>Make</em>, and follow the best
+			engineering practices possible. I also enjoy <em>algorithms</em>,
+			<em>Arch Linux</em> and furries.</p>
+		</section>
+		<section id="interests">
+			<h2>Interests</h2>
+			<p>Apart from programming, I enjoy board games,
+			playing Minecraft and Terraria, listening to music and watching
+			Doctor Who. I love doing something myself and trying new things.</p>
+		</section>
+		<section id="projects">
+			<h2>My projects</h2>
+			<article>
+				<a href="https://github.com/lupusarqentum/personal-web-page">
+					<h3>personal web page</h3>
+				</a>
+				<p>A personal web page about myself in the internet.</p>
+				<p>It was made with <a href="https://simplecss.org">Simple.css</a>
+				framework as an university homework.</p>
+			</article>
+			<article>
+				<a href="https://github.com/lupusarqentum/foxramdisk">
+					<h3>foxramdisk</h3>
+				</a>
+				<p>A virtual block device for the Linux kernel
+				storing its data in RAM in a compressed form,
+				similarly to zram.</p>
+				<p>Developed as a first-year university project.</p>
+			</article>
+			<article>
+				<h3><em>more to be added here soon...</em></h3>
+			</article>
+		</section>
+		<section id="contact">
+			<h2>Contacts</h2>
+			<ul>
+				<li><a href="https://github.com/lupusarqentum">GitHub</a></li>
+				<li><a href="https://t.me/lisnchk432">Telegram</a></li>
+				<li><a href="https://vk.ru/lupusarqentum">VK</a></li>
+				<li><a href="mailto:uhbif208@yandex.ru">uhbif208@yandex.ru</a></li>
+			</ul>
+		</section>
 	</main>
-
 	<footer>
-		<p>Aksel's website.</p>
+		Made with <a href="https://simplecss.org">Simple.css</a>
+		<br>
+		<a href="https://github.com/lupusarqentum/personal-web-page">The page's source code</a>
 	</footer>
 </body>
 </html>
