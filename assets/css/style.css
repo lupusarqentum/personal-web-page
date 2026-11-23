@@ -1,0 +1,6 @@
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--accent: #00ffc2;
+	}
+}
